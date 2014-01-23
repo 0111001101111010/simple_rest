@@ -79,7 +79,8 @@ user.register(app, '/users');
 movie.register(app, '/api/movies');
 
 if (!module.parent) {
-  app.listen(3000);
+  app.listen(8123);
+
 }
 
 function noop(req, res, next) { next(); }

@@ -18,4 +18,4 @@ models.forEach(function(model) {
   model.register(app, '/' + model.resourceName);
 });
 
-app.listen(3000);
+app.listen(8123);
